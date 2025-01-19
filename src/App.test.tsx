@@ -12,6 +12,6 @@ import Hero from './components/Hero';
 
 test('renders hero component', () => {
   render(<Hero />);
-  const heroElement = screen.getByText('Flor do Tojal');
+  const heroElement = screen.getByText('Mais de 10 Anos de Tradição e Sabor no Coração de Portugal');
   expect(heroElement).toBeInTheDocument();
 });
