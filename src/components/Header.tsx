@@ -33,6 +33,7 @@ const Header: React.FC = () => {
         sx={{
           bgcolor: "primary.main",
           boxShadow: "none",
+          px: { xs: 2, md: 8 }, // Add horizontal padding
         }}
       >
         <Toolbar sx={{ justifyContent: "space-between" }}>

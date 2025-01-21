@@ -2,7 +2,6 @@ import React from 'react';
 import { Box, Container, Typography, Link, IconButton } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Footer: React.FC = () => {
   return (
@@ -17,7 +16,7 @@ const Footer: React.FC = () => {
           color="text.secondary"
           component="p"
         >
-          Rua do Exemplo, 123 - Lisboa, Portugal
+          Rua Padre Américo, 2660-124 Santo Antão do Tojal, Portugal
         </Typography>
         <Typography
           variant="body2"
@@ -25,22 +24,19 @@ const Footer: React.FC = () => {
           color="text.secondary"
           component="p"
         >
-          Telefone: +351 123 456 789
+          Telefone: +351 211922816
         </Typography>
         <Box sx={{ mt: 2, display: 'flex', justifyContent: 'center' }}>
-          <IconButton aria-label="Facebook" color="primary">
+          <IconButton aria-label="Facebook" color="primary" href='https://www.facebook.com/profile.php?id=61571373445584' target='_blank'>
             <FacebookIcon />
           </IconButton>
-          <IconButton aria-label="Instagram" color="primary">
+          <IconButton aria-label="Instagram" color="primary" href='https://www.instagram.com/flordotojal/' target='_blank'>
             <InstagramIcon />
-          </IconButton>
-          <IconButton aria-label="Twitter" color="primary">
-            <TwitterIcon />
           </IconButton>
         </Box>
         <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 2 }}>
           {'Copyright © '}
-          <Link color="inherit" href="https://flordotugal.com/">
+          <Link color="inherit" href="https://flordotojal.com/">
             Flor do Tojal
           </Link>{' '}
           {new Date().getFullYear()}
