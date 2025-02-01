@@ -3,7 +3,8 @@ import { useState } from "react"
 import { AppBar, Toolbar, Box, IconButton, Drawer, List, ListItemButton, ListItemText, Button } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 import LocationOnIcon from "@mui/icons-material/LocationOn"
-import logo from "../images/flor_do_tojal_2.png"
+import logo from "../images/flor-tojal-nf-.png"
+
 
 const Header: React.FC = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false)

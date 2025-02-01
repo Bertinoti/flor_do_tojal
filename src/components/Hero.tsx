@@ -1,5 +1,5 @@
 import type React from "react"
-import { Box, Typography, Grid } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import breakFast from "../images/break_fast.png"
 
 const Hero: React.FC = () => {
